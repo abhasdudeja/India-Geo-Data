@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+LULC-2017.csv filter=lfs diff=lfs merge=lfs -text
+LULC-2017.gpkg filter=lfs diff=lfs merge=lfs -text
